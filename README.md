@@ -9,7 +9,12 @@ The project uses PyTorch for deep learning and includes steps for data explorati
 
 ## Files Included
 * **`Notebook.ipynb`**: A Jupyter Notebook (Google Colab compatible) containing the complete code for data processing, model building, and evaluation.
-* **`WebCamData.zip`**: A dataset containing webcam images used within the notebook for training/testing the model.
+
+## Dataset
+The model was trained on a Rock-Paper-Scissors image dataset sourced from Kaggle. 
+* Original Kaggle Dataset: [Rock Paper Scissors Dataset](https://www.kaggle.com/datasets/drgfreeman/rockpaperscissors)
+
+* **`WebCamData.zip`**: A dataset containing webcam images used within the notebook for finetuning the model.
 
 ## Technologies Used
 * Python
@@ -20,7 +25,6 @@ The project uses PyTorch for deep learning and includes steps for data explorati
 
 ## How to Run
 1. Extract `WebCamData.zip` if needed for local execution.
-2. Extract `Archive`
-3. Open `Notebook.ipynb` in Jupyter Notebook or Google Colab.
-4. Update the dataset paths in the notebook to point to your local or Google Drive directories.
-5. Run the cells sequentially to reproduce the results.
+2. Open `Notebook.ipynb` in Jupyter Notebook or Google Colab.
+3. Update the dataset paths in the notebook to point to your local or Google Drive directories.
+4. Run the cells sequentially to reproduce the results.
